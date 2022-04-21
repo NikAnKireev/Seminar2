@@ -12,8 +12,7 @@ int x = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите второе число");
 int y = Convert.ToInt32(Console.ReadLine());
-int result = x/y;
-bool result2 = x%y==0;
+
 if (x%y==0)
 {
     Console.WriteLine($"{x}, {y}-> кратно");
