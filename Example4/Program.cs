@@ -8,6 +8,6 @@ int first=Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите второе число");
 int second=Convert.ToInt32(Console.ReadLine());
-string sum=(first==second*second)?$"{first} Является квадратом {second}":(second==first*first) 
-?$"{second} Является квадратом {first}":"Не является";
+string sum=(first==second*second)?$"{second} Является квадратом {first}":(second==first*first) 
+?$"{first} Является квадратом {second}":"Не является";
 Console.WriteLine(sum);
