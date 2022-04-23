@@ -11,7 +11,9 @@ Console.Clear();
 
 Console.WriteLine("Введите число");
 int N=Convert.ToInt32(Console.ReadLine());
-string numS=N.ToString();
+/*string numS=N.ToString();
 int length = numS.Length;
-string result=(length>=3)?$"{N} -> {numS[2]}":$"{N} -> третьей цифры нет ";
+string result=(length>=3)?$"{N} -> {numS[2]}":$"{N} -> третьей цифры нет "; */
+
+string result = (N>99)?$"{N} -> {N.ToString()[2]}":(N<-99)?$"{N} -> {N.ToString()[3]}":$"{N} -> нет третьей цифры";
 Console.WriteLine(result);
