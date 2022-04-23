@@ -8,6 +8,7 @@ Console.Clear();
 918 -> 1 */
 
 Console.WriteLine("Введите трехзначное число");
-int N=Convert.ToInt32(Console.ReadLine());
-N = N[1];
-Console.WriteLine(result);
+int N=int.Parse(Console.ReadLine());
+string numS=N.ToString();
+int result = Convert.ToInt32(numS[1].ToString());
+Console.WriteLine($"{N} -> {result}");
